@@ -1,0 +1,29 @@
+body {
+	background-color: #7777ff;
+	padding: 40px 0 40px;
+}
+
+h1#branding, .branding {
+	background: rgb(228, 119, 255);
+	padding-bottom: 0.7em;
+	border-top-width: 0px;
+}
+
+.container_16 {
+	background-color: white;
+	padding-top: 20px;
+}
+
+.box h2 {
+	background-color: rgb(228, 119, 255);
+}
+
+ul.nav {
+	background-color: white;
+}
+
+#login-form {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}

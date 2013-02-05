@@ -1,0 +1,8 @@
+<h2 id="page-heading">
+  <span>Welcome</span> 
+</h2>
+<div class="grid_16">
+		<p>Please login to access this service.</p>
+		#parseTemplate("dialogs/login.vm")
+</div>
+

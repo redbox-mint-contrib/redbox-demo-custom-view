@@ -1,0 +1,48 @@
+#set($contentTitle = "My datasets")
+#parseTemplate("wrapping/content-block-open.vm")
+<div class="block">
+	#set($menuTitle = "Draft")
+	#parseTemplate("wrapping/info-box-open.vm")
+	<div class="block">
+		<table>
+			<thead>
+				<tr>
+					<th>Title</th>
+					<th>Created</th>
+					<th>Modified</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><a href="null"><img src="$portalPath/images/icons/workflow_edit.png" />Collected numbers</a></td>
+					<td>01-01-2012</td>
+					<td>02-01-2012</td>
+				</tr>
+				<tr>
+					<td><a href="null"><img src="$portalPath/images/icons/workflow_edit.png" />Survey results 2009</a></td>
+					<td>17-03-2010</td>
+					<td>26-12-2010</td>
+				</tr>
+			</tbody>
+		</table>
+    </div>
+    #parseTemplate("wrapping/info-box-close.vm")
+    #set($menuTitle = "Submitted")
+	#parseTemplate("wrapping/info-box-open.vm")
+	<div class="block">
+		<table>
+			<thead>
+				<tr>
+					<th>Title</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><a href="null">Data spirals and whirlybirds</a></td>
+				</tr>
+			</tbody>
+		</table>
+    </div>
+    #parseTemplate("wrapping/info-box-close.vm")
+</div>
+#parseTemplate("wrapping/content-block-close.vm")

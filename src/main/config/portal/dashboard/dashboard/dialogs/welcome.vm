@@ -1,0 +1,12 @@
+<h2 id="page-heading">
+  <span>Welcome</span> 
+</h2>
+<div class="grid_16">
+    #set($contentTitle = "About this service")
+    #parseTemplate("wrapping/content-block-open.vm")
+	<div class="article first">
+		<p>The Uni X researcher dashboard will help you do many things! Make sure that you <span id="user-info" class="status"><a class="login-now" href="#">Sign in</a></span></p>
+	</div>
+	#parseTemplate("wrapping/content-block-close.vm")
+</div>
+

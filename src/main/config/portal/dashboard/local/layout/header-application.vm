@@ -1,0 +1,9 @@
+#if($page.authentication.is_logged_in())
+<ul class="nav main">       
+        <li class="secondary">
+        
+			<span id="user-info" class="status">Logged in as $page.authentication.get_name(), <a href="#" id="logout-now">Logout</a></span>
+
+		</li>
+</ul>
+#end

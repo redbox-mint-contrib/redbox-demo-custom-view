@@ -1,0 +1,6 @@
+<div class="grid_16">
+    #parseTemplate("dialogs/login.vm")
+
+    $pageContent
+</div>
+<div class="clear"></div>

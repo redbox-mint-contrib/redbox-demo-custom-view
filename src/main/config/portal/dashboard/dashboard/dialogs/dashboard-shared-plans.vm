@@ -1,0 +1,44 @@
+#set($contentTitle = "Shared data plans")
+#parseTemplate("wrapping/content-block-open.vm")
+<div class="block">
+	#set($menuTitle = "Active")
+	#parseTemplate("wrapping/info-box-open.vm")
+	<div class="block">
+		<table>
+			<thead>
+				<tr>
+					<th>Title</th>
+					<th>Created</th>
+					<th>Modified</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><a href="null"><img src="$portalPath/images/icons/workflow_edit.png" />Space count project</a></td>
+					<td>01-01-2012</td>
+					<td>02-01-2012</td>
+				</tr>
+
+			</tbody>
+		</table>
+    </div>
+    #parseTemplate("wrapping/info-box-close.vm")
+    #set($menuTitle = "Closed")
+	#parseTemplate("wrapping/info-box-open.vm")
+	<div class="block">
+		<table>
+			<thead>
+				<tr>
+					<th>Title</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><a href="null">Binary pulse investigations</a></td>
+				</tr>
+			</tbody>
+		</table>
+    </div>
+    #parseTemplate("wrapping/info-box-close.vm")
+</div>
+#parseTemplate("wrapping/content-block-close.vm")

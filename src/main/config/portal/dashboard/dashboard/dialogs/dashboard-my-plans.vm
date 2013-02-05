@@ -1,0 +1,56 @@
+#set($contentTitle = "My data plans")
+#parseTemplate("wrapping/content-block-open.vm")
+<div class="block">
+	#set($menuTitle = "Active")
+	#parseTemplate("wrapping/info-box-open.vm")
+	<div class="block">
+		<table>
+			<thead>
+				<tr>
+					<th>Title</th>
+					<th>Created</th>
+					<th>Modified</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><a href="null"><img src="$portalPath/images/icons/workflow_edit.png" /> Advanced analytics project</a></td>
+					<td>01-01-2012</td>
+					<td>02-01-2012</td>
+				</tr>
+				<tr>
+					<td><a href="null"><img src="$portalPath/images/icons/workflow_edit.png" />Zero sum data</a></td>
+					<td>17-03-2010</td>
+					<td>26-12-2010</td>
+				</tr>
+				<tr>
+					<td><a href="null"><img src="$portalPath/images/icons/workflow_edit.png" />Internal knowledge extraction</a></td>
+					<td>19-05-2009</td>
+					<td>09-11-2011</td>
+				</tr>
+			</tbody>
+		</table>
+    </div>
+    #parseTemplate("wrapping/info-box-close.vm")
+    #set($menuTitle = "Closed")
+	#parseTemplate("wrapping/info-box-open.vm")
+	<div class="block">
+		<table>
+			<thead>
+				<tr>
+					<th>Title</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><a href="null">Unknown entities</a></td>
+				</tr>
+				<tr>
+					<td><a href="null">Aspects of irregular consistency</a></td>
+				</tr>
+			</tbody>
+		</table>
+    </div>
+    #parseTemplate("wrapping/info-box-close.vm")
+</div>
+#parseTemplate("wrapping/content-block-close.vm")

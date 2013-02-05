@@ -1,9 +1,12 @@
-ReDBox - Local Curation Demo
-======================
+Custom view demo
+=====
+This demonstrator provides a view named Dashboard with its own UI that can be overloaded 
+by local customisations.
 
-Sample institutional build with file system storage and local curation.
+Install this as you would any ReDBox build, using `mvn clean install`
 
-Downloaded the latest builds here:
+Then you can access the dashboard via http://127.0.0.1:9000/redbox/dashboard
 
-* [Release](http://dev.redboxresearchdata.com.au/nexus/service/local/artifact/maven/redirect?r=releases&g=com.googlecode.redbox-mint&a=redbox-local-curation-demo&v=LATEST&c=build&e=tar.gz)
-* [Development Snapshot](http://dev.redboxresearchdata.com.au/nexus/service/local/artifact/maven/redirect?r=snapshots&g=com.googlecode.redbox-mint&a=redbox-local-curation-demo&v=LATEST&c=build&e=tar.gz)
+Helpful doco:
+* http://velocity.apache.org/engine/devel/user-guide.html
+* https://sites.google.com/site/fascinatorhome/home/documentation/technical/details/branding-appearance

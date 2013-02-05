@@ -1,0 +1,24 @@
+#set($pageTitle = "Home")
+
+#if($page.authentication.is_logged_in())
+	<h2 id="page-heading">
+	  <span>Welcome</span> 
+	</h2>
+	#parseTemplate("menus/dashboard-menu.vm")
+	
+	<div class="grid_12">
+		| <a href="#my-plans">My Data Plans</a> | <a href="#shared-plans">Shared Data Plans</a> | <a href="#my-datasets">My Datasets</a> |
+		<hr>
+		<p/>
+		<a name="my-plans"/>
+		#parseTemplate("dialogs/dashboard-my-plans.vm")
+		<a name="shared-plans"/>
+		#parseTemplate("dialogs/dashboard-shared-plans.vm")
+		<a name="my-datasets"/>
+		#parseTemplate("dialogs/dashboard-my-datasets.vm")
+	</div>
+#else
+	#parseTemplate("dialogs/welcome.vm")
+#end
+
+
